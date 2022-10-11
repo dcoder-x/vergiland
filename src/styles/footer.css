@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  background: #4F4F4F;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* padding: 63px 100px; */
+  width: 100%;
+  padding: 2rem;
+  color: #ffffff;
+}
+.column h4 {
+  font-size: 1.5rem;
+}
+.footer div:not(:last-of-type) {
+  margin: 0 1.5rem 1.5rem 0;
+}
+.column a {
+  margin-top: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer p {
+  line-height: 35px;
+}
+.footer h4 {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.socials a {
+  background: #ebeeff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+.socials a:not(:last-of-type) {
+  margin-right: 20px;
+}
+.socials {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+footer .help {
+  margin-top: 37px;
+}
+@media screen and (max-width:900px) {
+  footer{
+    align-items: center;
+  }
+  .column h4 {
+    font-size: 0.5rem;
+  }
+  .footer p {
+    font-size: .5rem;
+  }
+  .footer h4 {
+    font-size: 1rem;
+
+  }
+}
