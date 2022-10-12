@@ -1,5 +1,5 @@
 import React from 'react'
-import {Icon} from '@Iconify/react';
+import {Icon} from '@iconify/react';
 import { Icons, images, partners } from '../assets/assets'
 import '../styles/home.css'
 import { services } from '../data/services';
