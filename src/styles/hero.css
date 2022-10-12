@@ -1,0 +1,30 @@
+#hero.hero,.become{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+}
+#hero.hero .text{
+    width: 50%;
+    /* margin-top: 4rem; */
+    padding: 3rem;
+}
+#hero.hero .text .title{
+    font-size: 70px;
+    color: rgba(79, 79, 79, 1);
+    line-height:1 ;
+    font-weight: 500;
+}
+#hero.hero .text .desc{
+    width: 80%;
+    margin: 2rem 0;
+}
+#hero.hero .image{
+    width: 50%;
+    padding: 2rem;
+}
+#hero.hero .image img {
+    width: 100%;
+    z-index: 1;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Icon } from '@iconify/react';
+import {Icon} from '@iconify/react';
 import { Icons, images, partners } from '../assets/assets'
 import '../styles/home.css'
 import { services } from '../data/services';
@@ -14,7 +14,7 @@ const Home = () => {
                     <h1 style={{color:'#48B760'}} >
                         VERGIL
                     </h1>
-                    <h1 style={{color:'black'}}>
+                    <h1 style={{color:'rgba(59, 79, 79, 1)'}}>
                         LAND
                     </h1>
                 </div>
@@ -34,38 +34,10 @@ const Home = () => {
                 <div className="bg">
 
                 </div>
-                <img src={images.hero} alt="" />
+                {/* <img src={images.hero} alt="" /> */}
             </div>
         </section>
-        {/* <section className="purpose">
-            <div className="header">
-                <h1>
-                    Our Mission and Purpose
-                </h1>
-            </div>
-            <section className="sections">
-                <li className="mission">
-                    <h1 className="title">
-                        MISSION
-                    </h1>
-                    <p className="desc">
-                        Lorem Ipsum is simply dummy text of the printing 
-                        and typesetting industry. Lorem Ipsum has been the 
-                        industry's standard dummy
-                    </p>
-                </li>
-                <li className="vision">
-                    <h1 className="title">
-                        VISION
-                    </h1>
-                    <p className="desc">
-                        Lorem Ipsum is simply dummy text of the printing 
-                        and typesetting industry. Lorem Ipsum has been the 
-                        industry's standard dummy
-                    </p>
-                </li>
-            </section>
-        </section> */}
+
         <section className="services">
             <div className="section-title">
                 <div className="icon">
@@ -100,13 +72,6 @@ const Home = () => {
                     })
                 }
 
-            </div>
-            <div className="event">
-                <div className="header">
-                    <div className="title">
-
-                    </div>
-                </div>
             </div>
         </section>
         <section className="coreValues">
@@ -148,6 +113,121 @@ const Home = () => {
 
             </div>
         </section>
+        <section className="purpose">
+            <div className="header">
+                <h1>
+                    Our Mission and Purpose
+                </h1>
+            </div>
+            <section className="sections">
+                <li className="mission">
+                    <h1 className="title">
+                        MISSION
+                    </h1>
+                    <p className="desc">
+                        Lorem Ipsum is simply dummy text of the printing 
+                        and typesetting industry. Lorem Ipsum has been the 
+                        industry's standard dummy
+                    </p>
+                </li>
+                <li className="vision">
+                    <h1 className="title">
+                        VISION
+                    </h1>
+                    <p className="desc">
+                        Lorem Ipsum is simply dummy text of the printing 
+                        and typesetting industry. Lorem Ipsum has been the 
+                        industry's standard dummy
+                    </p>
+                </li>
+            </section>
+        </section>
+        <section className="events">
+            <div className="section-title">
+                <div className="icon">
+
+                </div>
+                <h1>
+                    Upcoming Events
+                </h1>
+
+            </div>
+            <p className="subtitle">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
+                printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+            <div className="event-img">
+
+            </div>
+            <div class="event-footer">
+            <div class="column">
+                <img src={images.Logo2} alt="" />
+                <p>
+                © 2022. VergilLandLimited <br />
+                All rights reserved
+                </p>
+                <li class="socials">
+                <a href=""
+                    ><img
+                    src="../images/Instagram.svg"
+                    alt="instagram"
+                    data-aos="fade-right"
+                /></a>
+                <a href=""
+                    ><img
+                    src="../images/Facebook.svg"
+                    alt="facebook"
+                    data-aos="fade-down"
+                /></a>
+                <a href=""
+                    ><img
+                    src="../images/Twitter.svg"
+                    alt="twitter"
+                    data-aos="fade-up"
+                /></a>
+                <a href=""
+                    ><img
+                    src="../images/LinkedIn.svg"
+                    alt="linkedIn"
+                    data-aos="fade-left"
+                /></a>
+                </li>
+            </div>
+            <div>
+                <h4>Company</h4>
+                <p><a href="./about.html">About Us</a></p>
+                <p><a href="./about.html">Media</a></p>
+                <p><a href="./about.html">FAQ</a></p>
+                <p><a href="./about.html">History</a></p>
+            </div>
+
+            <div>
+                <h4>Links</h4>
+                <p><a href="./about.html">Contact</a></p>
+                <p><a href="./about.html">Download Documents</a></p>
+            </div>
+
+            <div>
+                <h4>Info</h4>
+                <p>
+                help@Vegiland.com <br />
+                +000 000 0000
+                </p>
+            </div>
+
+            <div>
+                <h4>Legal</h4>
+                <p><a href="./about.html">Terms of Use</a></p>
+                <p><a href="./about.html">Privacy Policy</a></p>
+                <p><a href="./about.html">Disclaimer</a></p>
+                <p><a href="./about.html">End User Agreement</a></p>
+            </div>
+            </div>
+            <button className='action-btn'>
+                Learn more
+            </button>
+        </section>
         <section className="our-partners">
             <div className="section-title">
                 <div className="icon">
@@ -176,43 +256,55 @@ const Home = () => {
                 Learn more
             </button>
         </section>
-        <section className="contact">
+        <section className='contact'>
+            <div className="section-title">
+                <div className="icon">
 
-            <form action="">
-                <input type="email" name='' id='' placeholder='Email'/>
-                <input type="text" placeholder='Title' name="" id="" />
-                <input type="text" placeholder='Subject' name="" id="" />
-                <input type="text" placeholder='Message' name="" id="" className='message' />
-                <button className='action-btn'>
-                    Submit
-                </button>
-            </form>
-            <div className="map">
-                <div className="address">
-                    <div className="icon">
-
-                    </div>
-                    <div className="address-holder">
-                        <h1>
-                            Vegiland
-                        </h1>
-                        <div className='phone'>
-                            <Icon icon="carbon:phone-filled" width={30} />
-                            <p>
-                                +2347057094393
-                            </p>
-                        </div>
-                        <div className='phone'>
-                            <Icon icon="carbon:location-filled" width={30} />
-                            <p>
-                                2972 Westheimer Rd. Santa Ana, Illinois 85486 
-                            </p>
-                        </div>
-                    </div>
-                    <img src={images.address} className="addressImg" alt="" />
                 </div>
+                <h1>
+                    Contact Us
+                </h1>
+
             </div>
+            <section className="contact-holder">
+
+                <form action="">
+                    <input type="email" name='' id='' placeholder='Email'/>
+                    <input type="text" placeholder='Title' name="" id="" />
+                    <input type="text" placeholder='Subject' name="" id="" />
+                    <input type="text" placeholder='Message' name="" id="" className='message' />
+                    <button className='action-btn'>
+                        Submit
+                    </button>
+                </form>
+                <div className="map">
+                    <div className="address">
+                        <div className="icon">
+
+                        </div>
+                        <div className="address-holder">
+                            <h1>
+                                Vegiland
+                            </h1>
+                            <div className='phone'>
+                                <Icon color='#48b760' icon="carbon:phone-filled" width={30} />
+                                <p>
+                                    +2347057094393
+                                </p>
+                            </div>
+                            <div className='phone'>
+                                <Icon color='#48b760' icon="carbon:location-filled" width={30} />
+                                <p>
+                                    2972 Westheimer Rd. Santa Ana, Illinois 85486 
+                                </p>
+                            </div>
+                        </div>
+                        <img src={images.address} className="addressImg" alt="" />
+                    </div>
+                </div>
+            </section>
         </section>
+
     </main>
   )
 }

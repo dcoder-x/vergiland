@@ -4,16 +4,16 @@ export const navData =[
         link:'/'
     },
     {
-        name:'About',
-        link:'/about'
-    },
-    {
         name:'Services',
         link:'/services'
     },
     {
-        name:'Projects',
-        link:'/projects'
+        name:'Partnership',
+        link:'/partnership'
+    },
+    {
+        name:'Training',
+        link:'/Training'
     },
     {
         name:'Contact',

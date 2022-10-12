@@ -2,22 +2,22 @@ import { Icons } from "../assets/assets";
 
 export const values=[
     {
-        title:'Lorem',
+        title:'Competence',
         desc:'Just short words about the value',
         number:Icons.five
     },
     {
-        title:'Lorem',
+        title:'Integrity',
         desc:'Just short words about the value',
         number:Icons.one
     },
     {
-        title:'Lorem',
+        title:'Simplicity',
         desc:'Just short words about the value',
         number:Icons.two
     },
     {
-        title:'Lorem',
+        title:'Equity',
         desc:'Just short words about the value',
         number:Icons.three
     },

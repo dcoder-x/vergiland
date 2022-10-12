@@ -1,0 +1,70 @@
+#contact .contact{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2b7a3c6f;
+    background: linear-gradient(0deg,#2b7a3c4b,#2b7a3c4f),url(../assets/images/bgfarm.png);
+    background-position: center;
+    background-size: cover;
+    padding: 3rem 0;
+}
+#contact .contact-holder {
+  
+  display: flex;
+  align-items: center;
+
+  justify-content: space-evenly;
+}
+#contact .contact form {
+  width: 40%;
+}
+#contact .contact form .message {
+  height: 100px;
+  text-align: start;
+}
+#contact .contact input {
+  height: 30px;
+  width: 100%;
+  padding: 1rem;
+  background: #f2f2f2;
+  border-radius: 34px;
+  border: none;
+  width: 80%;
+  margin: 0.5rem 0;
+}
+#contact .contact .map {
+  background: url(../assets/images/map.png);
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+  padding: 4rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contact .address {
+  background-color: white;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+#contact .address img {
+  height: 100%;
+}
+.address-holder div {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* padding: 1rem; */
+}
+.address-holder div p {
+  margin: 0.5rem 1rem;
+}
+.addressImg {
+  border-radius: 1rem;
+}
