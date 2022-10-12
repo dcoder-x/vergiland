@@ -119,7 +119,6 @@ const Home = () => {
                     Our Mission and Purpose
                 </h1>
             </div>
-            <section className="sections">
                 <li className="mission">
                     <h1 className="title">
                         MISSION
@@ -140,7 +139,6 @@ const Home = () => {
                         industry's standard dummy
                     </p>
                 </li>
-            </section>
         </section>
         <section className="events">
             <div className="section-title">

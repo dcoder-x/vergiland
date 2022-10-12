@@ -364,6 +364,9 @@ main {
     main{
         margin-top: 6rem;
     }
+    #home main{
+        margin-top: 0;
+    }
     #home .heroSection{
     flex-direction: column;
     padding: 0;
