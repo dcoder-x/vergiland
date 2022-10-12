@@ -1,10 +1,11 @@
-#home {
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
   /* margin-top: 6rem; */
   padding: 2rem 0;
   top: 0;
+  overflow-x: hidden;
 }
 #home .heroSection {
   display: flex;
@@ -103,7 +104,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 50px;
-  line-height: 110px;
+  line-height: 1;
   text-align: center;
   text-transform: uppercase;
   color: #4f4f4f;
@@ -153,17 +154,17 @@
   line-height: 18px;
   color: #828282;
 }
-#home .section-title {
+.section-title {
   display: flex;
   align-items: flex-end;
   width: 90%;
 }
 
-#home .section-title h1 {
+ .section-title h1 {
   font-style: normal;
   font-weight: 900;
   font-size: 50px;
-  line-height: 110px;
+  line-height: 1;
   text-align: left;
   text-transform: uppercase;
   color: #4f4f4f;
@@ -358,4 +359,82 @@
 }
 .addressImg {
   border-radius: 1rem;
+}
+@media screen and (max-width:800px) {
+    main{
+        margin-top: 6rem;
+    }
+    #home .heroSection{
+    flex-direction: column;
+    padding: 0;
+    }
+    .heroText{
+        width: 90% !important;
+        line-height: 1;
+       padding: 3rem 0;
+    }
+    #home .logoText{
+        font-size: 8vw;
+    }
+    .hero-image{
+        position: absolute;
+        width: 90%;
+        display: none;
+    }
+    #home .service-holder{
+        flex-direction: column;
+    }
+    #home .services .service{
+        width: 80%;
+        margin: 3rem 0;
+    }
+    
+}
+@media screen and (max-width:750px){
+    #home .values .value{
+        width: 100% !important;
+    }
+    #home .purpose .header{
+        font-size: 7vw;
+        width: 90%;
+    }
+    #home .mission,.vision{
+        width: 90%;
+    }
+    #home .event-img{
+        height: 50vh;
+    }
+    #home .partner{
+        width: 25%;
+    }
+    #home .contact-holder{
+        flex-direction: column;
+    }
+    #home .contact .map{
+        width: 90%;
+    }
+    #home .contact form{
+        width: 90%;
+        margin: 2rem 0;
+    }
+    #home .contact{
+        width: 100%;
+    }
+    #home .section-title{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    #home .section-title h1{
+        font-size: 30px;
+        width: 60%;
+    }
+    #home .address{
+        width: 95%;
+    }
+}
+@media screen and (max-width:800px){
+    .hero{
+        min-height: 70vh;
+    }
 }

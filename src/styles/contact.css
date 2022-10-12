@@ -68,3 +68,32 @@
 .addressImg {
   border-radius: 1rem;
 }
+@media screen and (max-width:800px) {
+    #contact .contact-holder{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    #contact .contact .map{
+        width: 90%;
+    }
+    #contact .contact form{
+        width: 90%;
+        margin: 2rem 0;
+    }
+    #contact .contact{
+        width: 100%;
+    }
+    #contact .section-title{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    #contact .section-title h1{
+        font-size: 30px;
+        width: 60%;
+    }
+    #contact .address{
+        width: 95%;
+    }
+}

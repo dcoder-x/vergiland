@@ -12,7 +12,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className='app'>
       <Nav/>
       <Routes>
         <Route index path='/' element={<Home/>} />
@@ -22,7 +22,7 @@ function App() {
         <Route index path='/training' element={<Training/>} />
       </Routes>
       <Footer/>
-    </>
+    </div>
 
   )
 }

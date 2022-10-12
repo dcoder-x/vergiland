@@ -124,3 +124,12 @@
 #training form .message {
     min-height: 7rem;
 }
+@media screen and (max-width:800px) {
+    #training form{
+        width: 80%;
+    }
+    #training .intern{
+        flex-direction: column-reverse;
+    
+    }
+}
