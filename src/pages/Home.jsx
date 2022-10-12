@@ -12,7 +12,7 @@ const Home = () => {
             <div className="heroText">
                 <div className="logoText">
                     <h1 style={{color:'#48B760'}} >
-                        VERGIL
+                        VEDGI
                     </h1>
                     <h1 style={{color:'rgba(59, 79, 79, 1)'}}>
                         LAND

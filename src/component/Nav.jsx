@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { images } from '../assets/assets'
@@ -6,8 +6,15 @@ import { navData } from '../data/navData'
 import '../styles/nav.css'
 
 const Nav = () => {
-  
   const [clicked, setClicked] = useState()
+  useEffect(() => {
+    const main = document.querySelector('main')
+    main.onclick=()=>{
+      setClicked(false)
+    }
+  }, [])
+  
+
   return (
       <nav id="nav">
         <div className="logo">
