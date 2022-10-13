@@ -32,7 +32,7 @@ import three from "./icons/three.svg";
 import four from "./icons/four.svg";
 import five from "./icons/five.svg";
 import star from "./icons/star.gif";
-import menu from "./icons/union.svg";
+import menu from "./icons/Union.svg";
 import Facebook from "./icons/Facebook.svg";
 import Instagram from "./icons/Instagram.svg";
 import LinkedIn from "./icons/LinkedIn.svg";
