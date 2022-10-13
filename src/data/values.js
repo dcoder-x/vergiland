@@ -21,9 +21,4 @@ export const values=[
         desc:'Just short words about the value',
         number:Icons.three
     },
-    {
-        title:'Lorem',
-        desc:'Just short words about the value',
-        number:Icons.four
-    },
 ]
