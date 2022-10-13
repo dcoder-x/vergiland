@@ -124,9 +124,9 @@ const Home = () => {
                         MISSION
                     </h1>
                     <p className="desc">
-                        Lorem Ipsum is simply dummy text of the printing 
-                        and typesetting industry. Lorem Ipsum has been the 
-                        industry's standard dummy
+                    The Mission is to contribute immensely to food security 
+                    and nutrition through Agricultural Real Estate of 
+                    modern technologies and methodologies. 
                     </p>
                 </li>
                 <li className="vision">
@@ -134,9 +134,9 @@ const Home = () => {
                         VISION
                     </h1>
                     <p className="desc">
-                        Lorem Ipsum is simply dummy text of the printing 
-                        and typesetting industry. Lorem Ipsum has been the 
-                        industry's standard dummy
+                    The Vision is to make profiting from agriculture easier and 
+                    more consistent for all and sundry without limitation by 
+                    boundaries, time, space, skill, social or financial status. 
                     </p>
                 </li>
         </section>

@@ -5,8 +5,18 @@
     flex-direction: column;
     color: white;
     align-items: center;
-    background: linear-gradient(0deg,#408f407a,#408f407a),url(../assets/images/bgfarm2.png);
+    background: linear-gradient(0deg,#3e3e3e,#408f407a),url(../assets/images/bgfarm2.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#services .overview h1{
+    font-size: 30px;
+    color: black;
 }
 #services .overview p{
     width: 80%;
+    font-size: 20px;
+    
+
 }

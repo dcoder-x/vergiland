@@ -9,6 +9,7 @@ import Training from './pages/Training'
 import Contact from './pages/Contact'
 import Services from './pages/Services'
 import Booking from './component/Booking'
+import Blog from './pages/Blog'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +24,7 @@ function App() {
         <Route index path='/partnership' element={<Partnership/>} />
         <Route index path='/training' element={<Training/>} />
         <Route index path='/booking' element={<Booking/>} />
+        <Route index path='/blog' element={<Blog/>} />
       </Routes>
       <Footer/>
     </div>

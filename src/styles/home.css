@@ -122,6 +122,9 @@ main {
   color: #000000;
   width: 80%;
 }
+#home .purpose li{
+  width: 80%;
+}
 .values {
   width: 90%;
   display: flex;

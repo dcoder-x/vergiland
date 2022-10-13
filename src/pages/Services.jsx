@@ -14,7 +14,7 @@ const Services = () => {
       />
       <section className="overview">
         <h1>
-            Vedgiland Overview
+            Vedgiland Farming design System
         </h1>
         <p>
             Vedgiland will engage in the production of fruit and leafy vegetables, poultry and 

@@ -22,6 +22,7 @@ import farmer from "./images/farmer.jpg";
 import services from "./images/services.png";
 import address from "./images/address.png";
 import booking from "./images/booking.png";
+import author from "./images/author.webp";
 import harvest from "./icons/harvest.svg";
 import agriculture from "./icons/agriculture.svg";
 import tractor from "./icons/tractor.svg";
@@ -50,6 +51,7 @@ export const partners = [
 ];
 export const images = {
   hero,
+  author,
   address,
   Logo,
   Logo2,

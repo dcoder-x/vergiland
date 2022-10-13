@@ -16,6 +16,10 @@ export const navData =[
         link:'/Training'
     },
     {
+        name:'Blog',
+        link:'/blog'
+    },
+    {
         name:'Contact',
         link:'/contact'
     },
