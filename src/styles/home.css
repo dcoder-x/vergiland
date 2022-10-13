@@ -122,7 +122,7 @@ main {
   color: #000000;
   width: 80%;
 }
-#home .purpose li{
+#home .purpose li {
   width: 80%;
 }
 .values {
@@ -162,10 +162,9 @@ main {
   align-items: center;
   width: 100%;
   justify-content: center;
-
 }
 
- .section-title h1 {
+.section-title h1 {
   font-style: normal;
   font-weight: 900;
   font-size: 50px;
@@ -300,14 +299,13 @@ main {
   width: 17%;
   margin: 2rem;
 }
-#home .contact{
-    /* min-width: 100%;
+#home .contact {
+  /* min-width: 100%;
     min-height: 100vh;
     padding: 3rem;
     padding-left: 3rem; */
 }
 #home .contact-holder {
-  
   display: flex;
   align-items: center;
 
@@ -365,84 +363,84 @@ main {
 .addressImg {
   border-radius: 1rem;
 }
-@media screen and (max-width:800px) {
-    main{
-        margin-top: 6rem;
-    }
-    #home{
-        margin-top: 0 !important;
-    }
-    #home .heroSection{
+@media screen and (max-width: 950px) {
+  main {
+    margin-top: 6rem;
+  }
+  #home {
+    margin-top: 0 !important;
+  }
+  #home .heroSection {
     flex-direction: column;
     padding: 0;
-    }
-    .heroText{
-        width: 90% !important;
-        line-height: 1;
-       padding: 3rem 0;
-    }
-    #home .logoText{
-        font-size: 8vw;
-    }
-    .hero-image{
-        position: absolute;
-        width: 90%;
-        display: none;
-    }
-    #home .service-holder{
-        flex-direction: column;
-    }
-    #home .services .service{
-        width: 80%;
-        margin: 3rem 0;
-    }
-    
+  }
+  .heroText {
+    width: 90% !important;
+    line-height: 1;
+    padding: 3rem 0;
+  }
+  #home .logoText {
+    font-size: 8vw;
+  }
+  .hero-image {
+    position: absolute;
+    width: 90%;
+    display: none;
+  }
+  #home .service-holder {
+    flex-direction: column;
+  }
+  #home .services .service {
+    width: 80%;
+    margin: 3rem 0;
+  }
 }
-@media screen and (max-width:750px){
-    #home .values .value{
-        width: 100% !important;
-    }
-    #home .purpose .header{
-        font-size: 7vw;
-        width: 90%;
-    }
-    #home .mission,.vision{
-        width: 90%;
-    }
-    #home .event-img{
-        height: 50vh;
-    }
-    #home .partner{
-        width: 25%;
-    }
-    #home .contact-holder{
-        flex-direction: column;
-    }
-    #home .contact .map{
-        width: 90%;
-    }
-    #home .contact form{
-        width: 90%;
-        margin: 2rem 0;
-    }
-    #home .contact{
-        width: 100%;
-    }
-    #home .section-title{
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
-    #home .section-title h1{
-        font-size: 30px;
-        width: 60%;
-    }
-    #home .address{
-        width: 95%;
-    }
+@media screen and (max-width: 750px) {
+  #home .values .value {
+    width: 100% !important;
+  }
+  #home .purpose .header {
+    font-size: 7vw;
+    width: 90%;
+  }
+  #home .mission,
+  .vision {
+    width: 90%;
+  }
+  #home .event-img {
+    height: 50vh;
+  }
+  #home .partner {
+    width: 25%;
+  }
 }
-@media screen and (max-width:800px){
-    .hero{
-        min-height: 70vh;
-    }
+@media screen and (max-width: 800px) {
+  .hero {
+    min-height: 70vh;
+  }
+  #home .contact-holder {
+    flex-direction: column;
+  }
+  #home .contact .map {
+    width: 90%;
+  }
+  #home .contact form {
+    width: 90%;
+    margin: 2rem 0;
+  }
+  #home .contact {
+    width: 100%;
+  }
+  #home .section-title {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  #home .section-title h1 {
+    font-size: 30px;
+    width: 60%;
+  }
+  #home .address {
+    width: 95%;
+  }
 }

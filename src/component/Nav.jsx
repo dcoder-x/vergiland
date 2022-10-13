@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate, useNavigation } from 'react-router-dom'
 import { Icons, images } from '../assets/assets'
 import { navData } from '../data/navData'
 import '../styles/nav.css'
@@ -9,6 +9,7 @@ import Booking from './Booking'
 const Nav = () => {
   const [clicked, setClicked] = useState()
   const [booking, setbooking] = useState()
+  const navigate=useNavigate()
   useEffect(() => {
     const main = document.querySelectorAll('main')
     if (main) {
@@ -25,11 +26,10 @@ const Nav = () => {
 
   return (
       <nav id="nav">
-        <a href="/">
-          <div className="logo">
+      
+          <div className="logo" onClick={e=>{navigate('/')}}>
             <img src={images.Logo} alt="" />
           </div>
-        </a>
 
         <div className={`menu-holder ${clicked?'show':'closed'}`}>
           {

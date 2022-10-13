@@ -21,7 +21,11 @@
     line-height: 19px;
     letter-spacing: 0.30000001192092896px;
     text-align: left;
-
+    width: 15%;
+    padding: 1rem 0;
+}
+#nav .logo img{
+    width: 100%;
 }
 #nav .menu-holder{
     display: flex;
@@ -85,7 +89,7 @@
         height: 30%;
     }
     #nav .logo{
-        width: 70%;
+        width: 30%;
         margin: 0;
     }
     #nav .logo img{
