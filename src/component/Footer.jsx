@@ -1,5 +1,5 @@
 import React from 'react'
-import { images } from '../assets/assets'
+import { Icons, images } from '../assets/assets'
 import '../styles/footer.css'
 
 const Footer = () => {
@@ -15,25 +15,25 @@ const Footer = () => {
         <li class="socials">
           <a href=""
             ><img
-              src="../images/Instagram.svg"
+              src={Icons.Facebook}
               alt="instagram"
               data-aos="fade-right"
           /></a>
           <a href=""
             ><img
-              src="../images/Facebook.svg"
+              src={Icons.Instagram}
               alt="facebook"
               data-aos="fade-down"
           /></a>
           <a href=""
             ><img
-              src="../images/Twitter.svg"
+              src={Icons.LinkedIn}
               alt="twitter"
               data-aos="fade-up"
           /></a>
           <a href=""
             ><img
-              src="../images/LinkedIn.svg"
+              src={Icons.Twitter}
               alt="linkedIn"
               data-aos="fade-left"
           /></a>
@@ -59,14 +59,6 @@ const Footer = () => {
           help@Vegiland.com <br />
           +000 000 0000
         </p>
-      </div>
-
-      <div>
-        <h4>Legal</h4>
-        <p><a href="./about.html">Terms of Use</a></p>
-        <p><a href="./about.html">Privacy Policy</a></p>
-        <p><a href="./about.html">Disclaimer</a></p>
-        <p><a href="./about.html">End User Agreement</a></p>
       </div>
     </div>
     {/* <p class="help">help@lcuna.com</p> */}

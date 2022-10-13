@@ -156,8 +156,10 @@ main {
 }
 .section-title {
   display: flex;
-  align-items: flex-end;
-  width: 90%;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+
 }
 
  .section-title h1 {
@@ -364,8 +366,8 @@ main {
     main{
         margin-top: 6rem;
     }
-    #home main{
-        margin-top: 0;
+    #home{
+        margin-top: 0 !important;
     }
     #home .heroSection{
     flex-direction: column;

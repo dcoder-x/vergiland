@@ -1,25 +1,36 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { images } from '../assets/assets'
+import { Icons, images } from '../assets/assets'
 import { navData } from '../data/navData'
 import '../styles/nav.css'
+import Booking from './Booking'
 
 const Nav = () => {
   const [clicked, setClicked] = useState()
+  const [booking, setbooking] = useState()
   useEffect(() => {
-    const main = document.querySelector('main')
-    main.onclick=()=>{
-      setClicked(false)
+    const main = document.querySelectorAll('main')
+    if (main) {
+      main.forEach(main=>{
+        main.onclick=()=>{
+          setClicked(false)
+          console.log(main)
+        }
+      })
     }
+
   }, [])
   
 
   return (
       <nav id="nav">
-        <div className="logo">
-          <img src={images.Logo} alt="" />
-        </div>
+        <a href="/">
+          <div className="logo">
+            <img src={images.Logo} alt="" />
+          </div>
+        </a>
+
         <div className={`menu-holder ${clicked?'show':'closed'}`}>
           {
             navData.map(menu=>{
@@ -34,14 +45,34 @@ const Nav = () => {
               )
             })
           }
+          <a href="/booking">
+              <button 
+                className="action-btn sm-booking"
+                onClick={e=>{setbooking(true)}}
+                style={{display:clicked?'block':'none'}}
+              >
+                Booking
+              </button> 
+          </a>
+
         </div>
+        <a href="/booking">
+          <button 
+            className="action-btn booking-btn"
+            onClick={e=>{setbooking(true)}}
+          >
+            Booking
+          </button>
+        </a>
+
         <div 
         className={`menuButtons ${clicked?'menu-clicked':null}`}
         onClick={e=>{setClicked(!clicked);!clicked?e.target.classList.remove('menu-clicked'):null}}
         >
-          <div className="menuLines"></div>
-          <div className="menuLines"></div>
-          <div className="menuLines"></div>
+          <p>
+            Menu
+          </p>
+          <img src={Icons.menu} alt="" />
         </div>
       </nav>
   )

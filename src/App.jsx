@@ -7,6 +7,8 @@ import Footer from './component/Footer'
 import Partnership from './pages/Partnership'
 import Training from './pages/Training'
 import Contact from './pages/Contact'
+import Services from './pages/Services'
+import Booking from './component/Booking'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,10 +18,11 @@ function App() {
       <Nav/>
       <Routes>
         <Route index path='/' element={<Home/>} />
-        {/* <Route index path='/services' element={<Services/>} /> */}
+        <Route index path='/services' element={<Services/>} />
         <Route index path='/contact' element={<Contact/>} />
         <Route index path='/partnership' element={<Partnership/>} />
         <Route index path='/training' element={<Training/>} />
+        <Route index path='/booking' element={<Booking/>} />
       </Routes>
       <Footer/>
     </div>

@@ -15,9 +15,13 @@ import intern from "./images/intern.jpg";
 import partnership from "./images/partnership.jpg";
 import training from "./images/training.jpg";
 import partnersimg from "./images/partners.jpg";
+import poultry from "./images/poultry.jpg";
 import farm from "./images/farm.jpg";
+import insects from "./images/insects.jpg";
 import farmer from "./images/farmer.jpg";
+import services from "./images/services.png";
 import address from "./images/address.png";
+import booking from "./images/booking.png";
 import harvest from "./icons/harvest.svg";
 import agriculture from "./icons/agriculture.svg";
 import tractor from "./icons/tractor.svg";
@@ -28,6 +32,11 @@ import three from "./icons/three.svg";
 import four from "./icons/four.svg";
 import five from "./icons/five.svg";
 import star from "./icons/star.gif";
+import menu from "./icons/union.svg";
+import Facebook from "./icons/Facebook.svg";
+import Instagram from "./icons/Instagram.svg";
+import LinkedIn from "./icons/LinkedIn.svg";
+import Twitter from "./icons/Twitter.svg";
 
 export const partners = [
   partner3,
@@ -51,7 +60,11 @@ export const images = {
   partnersimg,
   trainee,
   intern,
-  contact
+  contact,
+  services,
+  poultry,
+  insects,
+  booking
 };
 export const Icons = {
   tractor,
@@ -64,4 +77,9 @@ export const Icons = {
   four,
   five,
   star,
+  menu,
+  Instagram,
+  Facebook,
+  LinkedIn,
+  Twitter
 };
