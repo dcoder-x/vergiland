@@ -36,9 +36,11 @@
 @media screen and (max-width:800px) {
     #homeSections{
         flex-direction: column-reverse !important;
+
     }
     #homeSections .section-text{
         width: 90%;
+        font-size: 16px;
     }
     #homeSections .section-img{
         max-width: 90%;

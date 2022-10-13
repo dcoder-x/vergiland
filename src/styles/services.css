@@ -13,10 +13,18 @@
 #services .overview h1{
     font-size: 30px;
     color: black;
+    text-align: center;
+    line-height: 1;
 }
 #services .overview p{
     width: 80%;
     font-size: 20px;
     
 
+}
+@media screen and (max-width:800px) {
+    #services .overview p{
+        width: 90%;
+        font-size: 16px;
+    }
 }
