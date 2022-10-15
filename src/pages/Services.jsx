@@ -2,7 +2,7 @@ import React from "react";
 import { images } from "../assets/assets";
 import Hero from "../component/Hero";
 import HomeSection from "../component/HomeSection";
-import '../styles/services.css'
+import "../styles/services.css";
 
 const Services = () => {
   return (
@@ -11,41 +11,44 @@ const Services = () => {
         title={"What we do"}
         image={images.services}
         btn={"Book a service"}
+        desc={
+          "Vedgiland engages in the production of fruit and leafy vegetables, poultry and other products with controlled farming systems. The main concept of the business is to contribute to food security and nutrition through the production of Fruit and leafy vegetables, such as tomatoes, chilies, onions, production of herbs such as mint, oregano and so on. Also the production of carbohydrates such as grains and tubers like potatoes as well as the production of proteins such as poultry, rabbits and insects farming"
+        }
       />
       <section className="overview">
-        <h1>
-            Vedgiland Farming design System
-        </h1>
+        <h1>Vedgiland Farming design System</h1>
         <p>
-            Vedgiland will engage in the production of fruit and leafy vegetables, poultry and 
-            other products with controlled farming systems. The main concept of the 
-            business is to contribute to food security and nutrition through the 
-            production of Fruit and leafy vegetables, such as tomatoes, chilis, 
-            onions, production of herbs such as mint, oregano etc. t
-            he production of carbohydrates such as grains and tubers like potatoes as well as 
-            the production of proteins such as poultry, rabbits and insects farming. 
-            The overall plan of the business is to reduce costs through precision 
-            agriculture and integration of farming operations so that a waste fro
-            m an operation will become an input in another. This will greatly re
-            duce farming cost, reduce wastages, minimize the release
-             of greenhouse gases and improve the quality of food. The business 
-             also has the plan to include value addition to minimize post-harvest 
-             losses and food losses and increase profits. It is understood that if 
-             integration is achieved and wastages are minimized, cost of production
-            will greatly reduce therefore cost of food will also go down while still driving profit margin higher, consequently, facilitating economic access to food, a vital component of food security. 
-            The Farming Concept 
-            The project therefore includes the use of greenhouses and nethouses 
-            for the production of fruit and leafy vegetable, below is the descrip
-            tion of every element of the project. 
-            Greenhouses, Nethouses. Diverse greenhouse technologies and methodologies
-            will be employed towards the production of fruit vegetables such as T
-            omatoes, Habaneros, Jalapenos, Capsicum, Kimchi, Strawberries. The g
-            reenhouses will also be engaged in the production of her
-            bs such as Oregano, mint, cabbages, lettuce and celery. The fruit and 
-            leafy vegetables produced from these greenhouses will be processed an
-            d sold bulk. For example, the tomatoes produced will be processed into
-             pastes and ketchup and be sold to bulk buyers who will eventually ret
-             ail the product. Wastes will be converted to biogas and ethanol 
+          Vedgiland will engage in the production of fruit and leafy vegetables,
+          poultry and other products with controlled farming systems. The main
+          concept of the business is to contribute to food security and
+          nutrition through the production of Fruit and leafy vegetables, such
+          as tomatoes, chilis, onions, production of herbs such as mint, oregano
+          etc. t he production of carbohydrates such as grains and tubers like
+          potatoes as well as the production of proteins such as poultry,
+          rabbits and insects farming. The overall plan of the business is to
+          reduce costs through precision agriculture and integration of farming
+          operations so that a waste fro m an operation will become an input in
+          another. This will greatly re duce farming cost, reduce wastages,
+          minimize the release of greenhouse gases and improve the quality of
+          food. The business also has the plan to include value addition to
+          minimize post-harvest losses and food losses and increase profits. It
+          is understood that if integration is achieved and wastages are
+          minimized, cost of production will greatly reduce therefore cost of
+          food will also go down while still driving profit margin higher,
+          consequently, facilitating economic access to food, a vital component
+          of food security. The Farming Concept The project therefore includes
+          the use of greenhouses and nethouses for the production of fruit and
+          leafy vegetable, below is the descrip tion of every element of the
+          project. Greenhouses, Nethouses. Diverse greenhouse technologies and
+          methodologies will be employed towards the production of fruit
+          vegetables such as T omatoes, Habaneros, Jalapenos, Capsicum, Kimchi,
+          Strawberries. The g reenhouses will also be engaged in the production
+          of her bs such as Oregano, mint, cabbages, lettuce and celery. The
+          fruit and leafy vegetables produced from these greenhouses will be
+          processed an d sold bulk. For example, the tomatoes produced will be
+          processed into pastes and ketchup and be sold to bulk buyers who will
+          eventually ret ail the product. Wastes will be converted to biogas and
+          ethanol
         </p>
       </section>
       <HomeSection
@@ -68,7 +71,7 @@ const Services = () => {
             system from breeders to table chicken. 
         `}
       />
-     <HomeSection
+      <HomeSection
         sectionImg={images.insects}
         sectionBg={images.insects}
         sectionTitle={"Insect Farming"}
@@ -89,7 +92,6 @@ const Services = () => {
         further while improving the profitability margin of the Farm. 
         `}
       />
-
     </main>
   );
 };

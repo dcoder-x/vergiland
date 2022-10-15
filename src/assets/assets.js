@@ -17,7 +17,8 @@ import training from "./images/training.jpg";
 import partnersimg from "./images/partners.jpg";
 import poultry from "./images/poultry.jpg";
 import farm from "./images/farm.jpg";
-import insects from "./images/insects.jpg";
+import farm2 from "./images/farm2.jpg";
+import insects from "./images/insect.jpg";
 import farmer from "./images/farmer.jpg";
 import services from "./images/services.png";
 import address from "./images/address.png";
@@ -26,6 +27,9 @@ import author from "./images/author.webp";
 import harvest from "./icons/harvest.svg";
 import agriculture from "./icons/agriculture.svg";
 import tractor from "./icons/tractor.svg";
+import insect from "./icons/insect.png";
+import poultryicon from "./icons/poultry.png";
+import greenhouse from "./icons/greenhouse.png";
 import lightning from "./icons/lightning.svg";
 import one from "./icons/one.svg";
 import two from "./icons/two.svg";
@@ -66,7 +70,8 @@ export const images = {
   services,
   poultry,
   insects,
-  booking
+  booking,
+  farm2
 };
 export const Icons = {
   tractor,
@@ -83,5 +88,8 @@ export const Icons = {
   Instagram,
   Facebook,
   LinkedIn,
-  Twitter
+  Twitter,
+  insect,
+  poultryicon,
+  greenhouse
 };

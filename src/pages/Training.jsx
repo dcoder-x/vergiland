@@ -46,16 +46,18 @@ const Training = () => {
             <Hero 
                 className={'become trainee'}
                 image={images.trainee} 
-                btn='become a partner'
+                btn='become a trainee'
+                to={'#trainingform'}
                 title={'Become a Trainee'}
             />
             <Hero 
                 className={'become intern'}
                 image={images.intern} 
-                btn='become a partner'
+                btn='become an intern'
+                to={'#trainingform'}
                 title={'Become an Intern'}
             />
-            <div className="form">
+            <div className="form" id='trainingform'>
 
                 <form action="">
                     <p style={{textAlign:"center",fontSize:'30px',color:'rgba(72, 183, 96, 1)',fontWeight:"600"}}>

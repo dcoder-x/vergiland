@@ -18,7 +18,7 @@ main {
       rgba(0, 0, 0, 0.575),
       rgba(0, 119, 255, 0.582)
     ),
-    url(../assets/images/farm.jpg);
+    url(../assets/images/farm2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -48,7 +48,7 @@ main {
   color: #ffffff;
 }
 #home .heroSection .info {
-  width: 70%;
+  width: 100%;
   margin: 2rem 0;
   font-style: normal;
   font-weight: 500;
@@ -114,6 +114,9 @@ main {
   font-size: 40px;
   color: #48b760;
 }
+#home .our-partners{
+  min-height:auto !important ;
+}
 #home .purpose .desc {
   font-style: normal;
   font-weight: 500;
@@ -124,6 +127,10 @@ main {
 }
 #home .purpose li {
   width: 80%;
+  list-style: none;
+}
+#home .services .icon{
+  width: 60%;
 }
 .values {
   width: 90%;
@@ -184,6 +191,7 @@ main {
   /* width: 90%; */
   padding: 0 2rem;
   width: 90%;
+  margin: 2rem 0;
 }
 .service-holder {
   width: 100%;

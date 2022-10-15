@@ -19,15 +19,13 @@ const Home = () => {
                     </h1>
                 </div>
                 <p className="subtext">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis,
+                Nutrition. Yes! Nutrition!
                 </p>
                 <p className="info">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Maxime doloremque aspernatur officia voluptates vel 
-                    praesentium sapiente rem, earum dolor. Odit sequi accusamus 
+                Vedgiland engages in the production of fruit and leafy vegetables, poultry and other products with controlled farming systems. The main concept of the business is to contribute to food security and nutrition through the production of Fruit and leafy vegetables, such as tomatoes, chilies, onions, production of herbs such as mint, oregano and so on. Also the production of carbohydrates such as grains and tubers like potatoes as well as the production of proteins such as poultry, rabbits and insects farming
                 </p>
                 <button className="action-btn">
-                    Contact us
+                    Read more
                 </button>
             </div>
             <div className="hero-image">
@@ -151,9 +149,7 @@ const Home = () => {
 
             </div>
             <p className="subtitle">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                printer took a galley of type and scrambled it to make a type specimen book.
+            Currently, there are no upcoming event. Subscribe to our news letter to get updates on all events.
             </p>
             <div className="event-img">
 
@@ -180,7 +176,7 @@ const Home = () => {
             </div>
             </div>
             <button className='action-btn'>
-                Learn more
+                view more
             </button>
         </section>
         <section className="our-partners">
@@ -194,11 +190,9 @@ const Home = () => {
 
             </div>
             <p className="subtitle">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                printer took a galley of type and scrambled it to make a type specimen book.
+            With a Mission and Vision as compelling as ours we can not achieve it by depending on just our strength, hence the reason why we are in Partnership with this Reputable and Exceptional Companies.
             </p>
-            <div className="partners">
+            {/* <div className="partners">
                 {
                     partners.map(partner=>{
                         return(
@@ -206,7 +200,7 @@ const Home = () => {
                         )
                     })
                 }
-            </div>
+            </div> */}
             <button className='action-btn'>
                 Learn more
             </button>

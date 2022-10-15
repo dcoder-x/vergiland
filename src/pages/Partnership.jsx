@@ -12,6 +12,7 @@ const Partnership = () => {
             image={images.partnership} 
             btn='become a partner'
             title={'Partnership & Affiliation'}
+            desc={'With a Mission and Vision as compelling as ours we can not achieve it by depending on just our strength, hence the reason why we are in Partnership with this Reputable and Exceptional Companies.'}
         />
         <section className="partnershipOffers">
 
@@ -54,8 +55,10 @@ const Partnership = () => {
                 image={images.partnersimg} 
                 btn='become a partner'
                 title={'Become a Partner'}
+                to={'#partnershipform'}
+                desc={'You can also Join us in the fight against food Insecurity. Apply now and our Team will reach out to you.'}
             />
-            <div className="form">
+            <div className="form" id='partnershipform'>
 
                 <form action="">
                     <p style={{textAlign:"center",fontSize:'30px',color:'rgba(72, 183, 96, 1)',fontWeight:"600"}}>

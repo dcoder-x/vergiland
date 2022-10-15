@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
     <div class="footer">
       <div class="column">
-        <img src={images.Logo2} alt="" />
+        {/* <img src={images.Logo2} alt="" /> */}
         <p>
           © 2022. VergilLandLimited <br />
           All rights reserved
@@ -40,17 +40,18 @@ const Footer = () => {
         </li>
       </div>
       <div>
-        <h4>Company</h4>
-        <p><a href="./about.html">About Us</a></p>
-        <p><a href="./about.html">Media</a></p>
-        <p><a href="./about.html">FAQ</a></p>
-        <p><a href="./about.html">History</a></p>
+        <h4>Quick links</h4>
+        {/* <p><a href="/">Home</a></p> */}
+        <p><a href="./services">Services</a></p>
+        <p><a href="./partnership">Partnership</a></p>
+        <p><a href="./training">Training</a></p>
       </div>
 
       <div>
-        <h4>Links</h4>
-        <p><a href="./about.html">Contact</a></p>
-        <p><a href="./about.html">Download Documents</a></p>
+        <h4>Up date</h4>
+        <p><a href="./contact">Contact</a></p>
+        <p><a href="./blog">Blog</a></p>
+        {/* <p><a href="./about.html">Download Documents</a></p> */}
       </div>
 
       <div>

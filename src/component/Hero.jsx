@@ -1,7 +1,9 @@
 import React from 'react'
+import { useNavigate } from 'react-router'
 import '../styles/hero.css'
 
-const Hero = ({image,title,desc,btn,className}) => {
+const Hero = ({image,title,desc,btn,className,to}) => {
+    const navigate = useNavigate()
   return (
     <section id='hero' className={`hero ${className} `}>
         <div className="text">
@@ -21,9 +23,11 @@ const Hero = ({image,title,desc,btn,className}) => {
             {
                 btn?
 
-                <button className='action-btn'>
-                {btn}
-                </button>
+                <a href={to}>
+                    <button className='action-btn'>
+                    {btn}
+                    </button>
+                </a>
                 :
                 null
             }
