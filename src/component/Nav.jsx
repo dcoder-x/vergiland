@@ -48,7 +48,7 @@ const Nav = () => {
           <a href="/booking">
               <button 
                 className="action-btn sm-booking"
-                onClick={e=>{setbooking(true)}}
+                onClick={e=>{setbooking(true);navigate('/booking')}}
                 style={{display:clicked?'block':'none'}}
               >
                 Booking
@@ -59,7 +59,7 @@ const Nav = () => {
         <a href="/booking">
           <button 
             className="action-btn booking-btn"
-            onClick={e=>{setbooking(true)}}
+            onClick={e=>{setbooking(true);navigate('/booking')}}
           >
             Booking
           </button>
