@@ -45,7 +45,7 @@ const Nav = () => {
               )
             })
           }
-          <a href="/booking">
+
               <button 
                 className="action-btn sm-booking"
                 onClick={e=>{setbooking(true);navigate('/booking')}}
@@ -53,17 +53,15 @@ const Nav = () => {
               >
                 Booking
               </button> 
-          </a>
+
 
         </div>
-        <a href="/booking">
           <button 
             className="action-btn booking-btn"
             onClick={e=>{setbooking(true);navigate('/booking')}}
           >
             Booking
           </button>
-        </a>
 
         <div 
         className={`menuButtons ${clicked?'menu-clicked':null}`}
