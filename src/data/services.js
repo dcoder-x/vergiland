@@ -12,7 +12,7 @@ export const services = [
         subtext:'This is Vegiland'
     },
     {
-        name:'Insects',
+        name:'Insect farming',
         icon:Icons.insect,
         subtext:'This is Vegiland'
     },

@@ -79,7 +79,7 @@ const Partnership = () => {
                     </div>
                     <div className="field">
                         <label htmlFor="">
-                        Subject
+                        Partnership Type
                         </label>
                         <select name="" id="">
                             <optgroup>

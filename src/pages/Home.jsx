@@ -95,14 +95,11 @@ const Home = () => {
                                             value.title
                                         }
                                     </div>
-                                    <p className="desc">
-                                        {/* {
-                                            value.desc
-                                        } */}
+                                    {/* <p className="desc">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                         Exercitationem necessitatibus quo, perspiciatis saepe 
                                         numquam provident explicabo laudantium voluptas, quod id.
-                                    </p>
+                                    </p> */}
                                 </div>
                             </div> 
                         )

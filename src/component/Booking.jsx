@@ -32,7 +32,7 @@ const Booking = () => {
             <input type="text" placeholder="your email address" />
           </div>
           <div className="field">
-            <label htmlFor="">Choose a program</label>
+            <label htmlFor="">Choose a service</label>
             <select name="" id="">
               input
             </select>

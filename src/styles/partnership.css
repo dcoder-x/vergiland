@@ -106,6 +106,9 @@
   /* width: 80%; */
   margin: 0.5rem 0;
 }
+form  select{
+    height: auto !important;
+}
 #partnership form button{
     border-radius: 1rem 0 1rem 1rem;
     width: 40%;

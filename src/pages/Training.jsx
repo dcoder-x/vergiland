@@ -43,13 +43,13 @@ const Training = () => {
             </div>
         </section> */}
         <section className="join">
-            <Hero 
+            {/* <Hero 
                 className={'become trainee'}
                 image={images.trainee} 
                 btn='become a trainee'
                 to={'#trainingform'}
                 title={'Become a Trainee'}
-            />
+            /> */}
             <Hero 
                 className={'become intern'}
                 image={images.intern} 
