@@ -11,6 +11,7 @@ const Training = () => {
             btn='Take a course'
             title={'Training & Internship'}
             to={'#trainingform'}
+            desc={' '}
         />
         {/* <section className="partners">
             <h1>
