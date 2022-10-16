@@ -12,6 +12,7 @@ const Partnership = () => {
             image={images.partnership} 
             btn='become a partner'
             title={'Partnership & Affiliation'}
+            link={'#contact'}
             desc={'With a Mission and Vision as compelling as ours we can not achieve it by depending on just our strength, hence the reason why we are in Partnership with this Reputable and Exceptional Companies.'}
         />
         <section className="partnershipOffers">
@@ -53,7 +54,7 @@ const Partnership = () => {
             <Hero 
                 className={'become'}
                 image={images.partnersimg} 
-                btn='become a partner'
+                btn='Become a Partner'
                 title={'Become a Partner'}
                 to={'#partnershipform'}
                 desc={'You can also Join us in the fight against food Insecurity. Apply now and our Team will reach out to you.'}

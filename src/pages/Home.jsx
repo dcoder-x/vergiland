@@ -4,8 +4,11 @@ import { Icons, images, partners } from '../assets/assets'
 import '../styles/home.css'
 import { services } from '../data/services';
 import { values } from '../data/values';
+import { useNavigate } from 'react-router';
 
 const Home = () => {
+    const navigate = useNavigate()
+
   return (
     <main id='home'>
         <section className='heroSection'>
@@ -24,7 +27,7 @@ const Home = () => {
                 <p className="info">
                 Vedgiland engages in the production of fruit and leafy vegetables, poultry and other products with controlled farming systems. The main concept of the business is to contribute to food security and nutrition through the production of Fruit and leafy vegetables, such as tomatoes, chilies, onions, production of herbs such as mint, oregano and so on. Also the production of carbohydrates such as grains and tubers like potatoes as well as the production of proteins such as poultry, rabbits and insects farming
                 </p>
-                <button className="action-btn">
+                <button className="action-btn" onClick={e=>{navigate('/services')}}>
                     Read more
                 </button>
             </div>
@@ -46,9 +49,7 @@ const Home = () => {
                 </h1>
             </div>
             <p className="subtitle">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                printer took a galley of type and scrambled it to make a type specimen book.
+                Vedgiland engages in the production of fruit and leafy vegetables, poultry and other products with controlled farming systems. The main concept of the business is to contribute to food security and nutrition through the production of Fruit and leafy vegetables, such as tomatoes, chilies, onions, production of herbs such as mint, oregano and so on. Also the production of carbohydrates such as grains and tubers like potatoes as well as the production of proteins such as poultry, rabbits and insects farming
             </p>
             <div className='service-holder'>
                 {
@@ -62,7 +63,7 @@ const Home = () => {
                             <p className="subtext">
                                 {service.subtext}
                             </p>
-                            <button className='action-btn'>
+                            <button className='action-btn' onClick={e=>{navigate('/services')}}>
                                 Learn more
                             </button>
                         </div> 
@@ -141,7 +142,7 @@ const Home = () => {
 
                 </div>
                 <h1>
-                    Upcoming Events
+                    Events
                 </h1>
 
             </div>
@@ -154,22 +155,22 @@ const Home = () => {
             <div class="event-footer">
             <div>
                 <h4>Past events</h4>
-                <p><a href="./about.html">Harvest</a></p>
-                <p><a href="./about.html">Lecture</a></p>
+                {/* <p><a href="./about.html">Harvest</a></p>
+                <p><a href="./about.html">Lecture</a></p> */}
             </div>
 
             <div>
                 <h4>Upcoming</h4>
-                <p><a href="./about.html">Farm con</a></p>
-                <p><a href="./about.html">Download</a></p>
+                <p><a href="./about.html">coming soon</a></p>
+                {/* <p><a href="./about.html">Download</a></p> */}
             </div>
 
             <div>
-                <h4>Venue</h4>
+                {/* <h4>Venue</h4>
                 <p>
                 Vegiland ventures <br />
                 Oakland street
-                </p>
+                </p> */}
             </div>
             </div>
             <button className='action-btn'>
@@ -198,7 +199,7 @@ const Home = () => {
                     })
                 }
             </div> */}
-            <button className='action-btn'>
+            <button className='action-btn' onClick={e=>{navigate('partnership')}}>
                 Learn more
             </button>
         </section>

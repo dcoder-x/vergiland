@@ -10,6 +10,7 @@ const Contact = () => {
             title={'Contact Us'}
             image={images.contact}
             btn={'Contact us now'}
+            desc={''}
         />
         <section className='contact'>
             <div className="section-title">
