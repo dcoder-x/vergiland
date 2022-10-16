@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Icons, images } from '../assets/assets'
 import '../styles/footer.css'
 
@@ -13,25 +14,25 @@ const Footer = () => {
           All rights reserved
         </p>
         <li class="socials">
-          <a href=""
+          <a to=""
             ><img
               src={Icons.Facebook}
               alt="instagram"
               data-aos="fade-right"
           /></a>
-          <a href=""
+          <a to=""
             ><img
               src={Icons.Instagram}
               alt="facebook"
               data-aos="fade-down"
           /></a>
-          <a href=""
+          <a to=""
             ><img
               src={Icons.LinkedIn}
               alt="twitter"
               data-aos="fade-up"
           /></a>
-          <a href=""
+          <a to=""
             ><img
               src={Icons.Twitter}
               alt="linkedIn"
@@ -41,17 +42,17 @@ const Footer = () => {
       </div>
       <div>
         <h4>Quick links</h4>
-        {/* <p><a href="/">Home</a></p> */}
-        <p><a href="./services">Services</a></p>
-        <p><a href="./partnership">Partnership</a></p>
-        <p><a href="./training">Training</a></p>
+        {/* <p><a to="/">Home</a></p> */}
+        <p><Link to="./services">Services</Link></p>
+        <p><Link to="./partnership">Partnership</Link></p>
+        <p><Link to="./training">Training</Link></p>
       </div>
 
       <div>
         <h4>Up date</h4>
-        <p><a href="./contact">Contact</a></p>
-        <p><a href="./blog">Blog</a></p>
-        {/* <p><a href="./about.html">Download Documents</a></p> */}
+        <p><Link to="./contact">Contact</Link></p>
+        <p><Link to="./blog">Blog</Link></p>
+        {/* <p><a to="./about.html">Download Documents</a></p> */}
       </div>
 
       <div>

@@ -12,6 +12,7 @@ import Logo2 from "./images/Logo2.svg";
 import contact from "./images/contact.png";
 import trainee from "./images/trainee.jpg";
 import intern from "./images/intern.jpg";
+import greenhouseimg from "./images/greenhouse.jpg";
 import partnership from "./images/partnership.jpg";
 import training from "./images/training.jpg";
 import partnersimg from "./images/partners.jpg";
@@ -55,6 +56,7 @@ export const partners = [
 ];
 export const images = {
   hero,
+  greenhouseimg,
   author,
   address,
   Logo,

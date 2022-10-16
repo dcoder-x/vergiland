@@ -77,7 +77,7 @@ const Services = () => {
         sectionBg={images.insects}
         sectionTitle={"Insect Farming"}
         sectionText={`
-        •Supply of soya beans sometimes are short and there will be 
+        Supply of soya beans sometimes are short and there will be 
         need to find clean and healthy alternative to protein. Black 
         Flea Larvae from the Black Soldier fly is a good way of 
         utilizing the poultry waste to produce larvae, which matches 
@@ -91,6 +91,23 @@ const Services = () => {
         biogas system is the renewable energy supply and reduction 
         of farm waste. This will end up reducing the cost of production 
         further while improving the profitability margin of the Farm. 
+        `}
+      />
+            <HomeSection
+        sectionImg={images.greenhouseimg}
+        // sectionBg={images.insects}
+        sectionTitle={"Green house"}
+        sectionText={`
+          Diverse greenhouse technologies and methodologies will be 
+          employed towards the production of fruit vegetables such as 
+          Tomatoes, Habaneros, Jalapenos, Capsicum, Kimchi, Strawberries.
+          The greenhouses will also be engaged in the production of herbs 
+          such as Oregano, mint, cabbages, lettuce and celery. 
+          The fruit and leafy vegetables produced from these 
+          greenhouses will be processed and sold bulk. For example, 
+          the tomatoes produced will be processed into pastes and ketchup 
+          and be sold to bulk buyers who will eventually retail the product. 
+          Wastes will be converted to biogas and ethanol 
         `}
       />
     </main>

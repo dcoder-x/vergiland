@@ -5,7 +5,7 @@ import Hero from "./Hero";
 
 const Booking = () => {
   return (
-    <main id="bookingg">
+    <main id="booking">
       <Hero 
         title={"Book a service"} 
         image={images.booking} 
