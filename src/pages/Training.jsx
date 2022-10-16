@@ -10,6 +10,7 @@ const Training = () => {
             image={images.training} 
             btn='Take a course'
             title={'Training & Internship'}
+            to={'#trainingform'}
         />
         {/* <section className="partners">
             <h1>

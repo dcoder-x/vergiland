@@ -10,7 +10,8 @@ const Contact = () => {
             title={'Contact Us'}
             image={images.contact}
             btn={'Contact us now'}
-            desc={''}
+            desc={'Reach out to our 24/7 customer care/support to lodge your issues or complain'}
+            to={'#contactform'}
         />
         <section className='contact'>
             <div className="section-title">
@@ -22,7 +23,7 @@ const Contact = () => {
                 </h1>
 
             </div>
-            <section className="contact-holder">
+            <section className="contact-holder" id='contactform'>
 
                 <form action="">
                     <input type="email" name='' id='' placeholder='Email'/>

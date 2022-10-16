@@ -10,9 +10,9 @@ const Partnership = () => {
     <main id='partnership'>
         <Hero 
             image={images.partnership} 
-            btn='become a partner'
+            btn='Become a Partner'
             title={'Partnership & Affiliation'}
-            link={'#contact'}
+            to={'#partnershipform'}
             desc={'With a Mission and Vision as compelling as ours we can not achieve it by depending on just our strength, hence the reason why we are in Partnership with this Reputable and Exceptional Companies.'}
         />
         <section className="partnershipOffers">
@@ -29,7 +29,7 @@ const Partnership = () => {
                         return(
                             <div className="partner">
                                 <div className="partner-logo">
-                                    <img src={partners[index]} alt="" />
+                                    {/* <img src={partners[index]} alt="" /> */}
                                 </div>
                                 <div className="partner-name">
                                     {partner.name}

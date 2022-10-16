@@ -6,7 +6,11 @@ import Hero from "./Hero";
 const Booking = () => {
   return (
     <main id="bookingg">
-      <Hero title={"Book a service"} image={images.booking} />
+      <Hero 
+        title={"Book a service"} 
+        image={images.booking} 
+        desc={'Enjoy our services by booking through the form below. Our team will contact you as soon as possible'}
+      />
       <section className="booking">
         {/* <div className="close" onClick={close}>
             x

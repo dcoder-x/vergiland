@@ -14,7 +14,7 @@ const Services = () => {
         desc={
           "Vedgiland engages in the production of fruit and leafy vegetables, poultry and other products with controlled farming systems. The main concept of the business is to contribute to food security and nutrition through the production of Fruit and leafy vegetables, such as tomatoes, chilies, onions, production of herbs such as mint, oregano and so on. Also the production of carbohydrates such as grains and tubers like potatoes as well as the production of proteins such as poultry, rabbits and insects farming"
         }
-        link={'#contact'}
+        link={'/booking'}
       />
       <section className="overview">
         <h1>Vedgiland Farming design System</h1>
