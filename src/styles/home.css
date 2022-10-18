@@ -59,7 +59,42 @@ main {
   color: #ffffff;
   margin: 2rem 0;
 }
-
+.home-vid{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 3rem 0;
+}
+.home-vid .vid{
+  width: 70%;
+  min-height: 70%;
+}
+.home-vid .vid video{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.home-vid .title{
+  font-size: 20px;
+  font-weight: 700;
+  width: 60%;
+  margin: 2rem 0;
+}
+.home-vid .text{
+  margin-top: -30%;
+  padding: 0 2rem;
+}
+#home .home-vid button{
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  transition:  .7s ease-in-out ;
+}
 .hero-image {
   clip-path: polygon(48% 0, 100% 0%, 100% 100%, 0% 100%);
   width: 100%;
@@ -401,6 +436,15 @@ main {
   #home .services .service {
     width: 80%;
     margin: 3rem 0;
+  }
+  .home-vid .vid{
+    width: 80%;
+  }
+  .home-vid .title{
+    width: 100%;
+  }
+  .home-vid {
+    margin: 0;
   }
 }
 @media screen and (max-width: 750px) {

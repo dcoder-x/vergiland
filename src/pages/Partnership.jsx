@@ -23,13 +23,13 @@ const Partnership = () => {
             <h1>
                 Partners
             </h1>
-            <div className="partners-list">
+            {/* <div className="partners-list">
                 {
                     partnersData.map((partner,index)=>{
                         return(
                             <div className="partner">
                                 <div className="partner-logo">
-                                    {/* <img src={partners[index]} alt="" /> */}
+                                    <img src={partners[index]} alt="" /> 
                                 </div>
                                 <div className="partner-name">
                                     {partner.name}
@@ -48,7 +48,7 @@ const Partnership = () => {
                     })
                 }
 
-            </div>
+            </div> */}
         </section>
         <section className=" join">
             <Hero 
