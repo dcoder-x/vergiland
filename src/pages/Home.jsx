@@ -9,15 +9,13 @@ import bgvid from '../assets/videos/vedgiland.mp4'
 
 const Home = () => {
     const navigate = useNavigate()
-    const [videoPlay, setvideoPlay] = useState(false )
-    const videoref = useRef(null)
+
 
   return (
     <main id='home'>
         <section className='heroSection'>
-            {/* <video src={bgvid} className='bg-video'>
-
-            </video> */}
+            <video src={bgvid} autoPlay loop className='bg-video'>
+            </video>
             <div className="heroText">
                 <div className="logoText">
                     <h1 style={{color:'#48B760'}} >
@@ -38,10 +36,6 @@ const Home = () => {
                 </button>
             </div>
             <div className="hero-image">
-                
-
-             
-                {/* <img src={images.hero} alt="" /> */}
             </div>
         </section>
 
@@ -79,52 +73,7 @@ const Home = () => {
 
             </div>
         </section>
-        <section className="home-vid">
-            {/* <div className="section-title">
-                <div className="icon">
-
-                </div>
-                <h1>
-                    Drone shot
-                </h1>
-            </div> */}
-            <div className="vid">
-                <video ref={videoref} preload='' loop src={bgvid} autoPlay title='A drone shot covering Vedgiland farms'>
-
-                </video>
-                <div className="text">
-                    <div className="title">
-                        A drone shot of Vedgiland farm
-                    </div>
-                    <button 
-                    className="action-btn"                     
-                    onClick={e=>{
-                        setvideoPlay(!videoPlay);
-                        videoPlay?videoref.current.play():videoref.current.pause()
-                    }}
-                    onMouseOver={e=>{
-                        e.target.style.opacity=1
-                    }}
-                    onMouse={e=>{
-                        e.target.style.opacity=0
-                    }}>
-                        {
-                            videoPlay?'Pause Video':'Play Video'
-                        }
-                        {
-                            !videoPlay?
-                            <Icon icon="bi:play-circle-fill" />
-                            :
-                            <Icon icon="bi:pause-circle-fill" />
-                        }
-                        
-                        
-                    </button>
-                </div>
-
-
-            </div>
-        </section>
+        <iframe  className='video' src="https://www.youtube.com/embed/-LMxoET8_4Y" title="Vedgiland" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <section className="coreValues">
             <div className="section-title">
                 <div className="icon">
