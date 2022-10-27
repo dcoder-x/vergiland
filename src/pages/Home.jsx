@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import {Icon} from '@iconify/react';
 import { Icons, images, partners } from '../assets/assets'
 import '../styles/home.css'
@@ -9,12 +9,15 @@ import bgvid from '../assets/videos/vedgiland.mp4'
 
 const Home = () => {
     const navigate = useNavigate()
+    const vidRef=useRef();
+
+    useEffect(() => { vidRef.current.play(); },[]);
 
 
   return (
     <main id='home'>
         <section className='heroSection'>
-            <video src={bgvid} autoPlay loop className='bg-video'>
+            <video src={bgvid} ref={vidRef} autoPlay controls={false} loop className='bg-video'>
             </video>
             <div className="heroText">
                 <div className="logoText">
@@ -38,7 +41,7 @@ const Home = () => {
             <div className="hero-image">
             </div>
         </section>
-
+        <iframe  className='video' src="https://www.youtube.com/embed/-LMxoET8_4Y" title="Vedgiland" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <section className="services">
             <div className="section-title">
                 <div className="icon">
@@ -73,7 +76,6 @@ const Home = () => {
 
             </div>
         </section>
-        <iframe  className='video' src="https://www.youtube.com/embed/-LMxoET8_4Y" title="Vedgiland" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <section className="coreValues">
             <div className="section-title">
                 <div className="icon">
