@@ -11,7 +11,7 @@ const Home = () => {
     const navigate = useNavigate()
     const vidRef=useRef();
 
-    useEffect(() => { vidRef.current.play(); },[]);
+    useEffect(() => { vidRef.current.play() },[]);
 
 
   return (
