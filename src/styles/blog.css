@@ -9,6 +9,9 @@
     justify-content: space-between;
     margin: 2rem 0;
 }
+.comingSoon{
+    width: 50%;
+}
 #blog .blog-header img{
     width: 50%;
     border-radius: 1rem;

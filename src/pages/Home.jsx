@@ -62,7 +62,7 @@ const Home = () => {
                 on this mega project with huge profit and growth potential.
                 </p>
                 <button className="action-btn" onClick={e=>{navigate('/partnership')}}>
-                    Become a partner
+                    Become a Partner
                 </button>
             </div>
             <iframe  className='video' src="https://www.youtube.com/embed/-LMxoET8_4Y" title="Vedgiland" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

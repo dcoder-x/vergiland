@@ -1,13 +1,15 @@
+import Lottie from "lottie-react";
 import React from "react";
 import { images } from "../assets/assets";
 import { blogData } from "../data/blog";
 import "../styles/blog.css";
+import coming from '../assets/lottie/coming.json'
 
 const Blog = () => {
   return (
     <main id="blog">
       <h1 style={{ fontSize: 50, fontWeight: "900" }}>Blog</h1>
-      <section className="blog-header">
+      {/* <section className="blog-header">
         <img src={images.insects} alt="" />
 
         <div className="text">
@@ -64,7 +66,8 @@ const Blog = () => {
             </div>
           );
         })}
-      </section>
+      </section> */}
+      <Lottie animationData={coming}/>
     </main>
   );
 };

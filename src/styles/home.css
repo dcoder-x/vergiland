@@ -38,6 +38,7 @@ main {
   /* margin-top: 4rem; */
   padding: 3rem;
   z-index: 1;
+
 }
 #home .logoText {
   display: flex;
@@ -66,7 +67,10 @@ main {
   line-height: 18px;
   display: flex;
   align-items: center;
-  color: #000000;
+  color: #ffffff;
+  text-shadow: 3px 3px 10px rgb(67, 67, 67) ;
+  /* background: #4793632e;
+  padding: 2rem; */
   margin: 2rem 0;
 }
 #home .intro{

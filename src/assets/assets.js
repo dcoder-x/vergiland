@@ -6,6 +6,7 @@ import partner5 from "./partners/image5.png";
 import partner6 from "./partners/image6.png";
 import partner7 from "./partners/image7.png";
 import partner8 from "./partners/image8.png";
+import coming from '../assets/lottie/comingSoon.gif'
 import hero from "./images/hero.png";
 import Logo from "./images/Logo.png";
 import Logo2 from "./images/Logo2.svg";
@@ -56,6 +57,7 @@ export const partners = [
 ];
 export const images = {
   hero,
+  coming,
   greenhouseimg,
   author,
   address,
