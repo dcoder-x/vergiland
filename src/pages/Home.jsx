@@ -11,13 +11,13 @@ const Home = () => {
     const navigate = useNavigate()
     const vidRef=useRef();
 
-    useEffect(() => { vidRef.current.play() },[]);
+    useEffect(() => { vidRef.current.play(); },[]);
 
 
   return (
     <main id='home'>
         <section className='heroSection'>
-            <video src={bgvid} ref={vidRef} autoPlay controls={false} loop className='bg-video'>
+            <video src={bgvid} ref={vidRef} muted autoPlay controls={false} loop className='bg-video'>
             </video>
             <div className="heroText">
                 <div className="logoText">
