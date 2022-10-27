@@ -84,7 +84,7 @@ main {
   /* margin-bottom: 2rem; */
 }
 #home .intro .action-btn{
-  background-color: white;
+  background: linear-gradient(94.77deg, #ffffff 0%, #ffffff 100%);
   color: #48B760 ;
 }
 #home .intro-text{
