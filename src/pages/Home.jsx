@@ -41,7 +41,30 @@ const Home = () => {
             <div className="hero-image">
             </div>
         </section>
-        <iframe  className='video' src="https://www.youtube.com/embed/-LMxoET8_4Y" title="Vedgiland" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <section className="intro become">
+            <div className="intro-text">
+                <h2 className="intro-title">
+                    Just a simple title
+                </h2>
+                <p className='subtitle'>
+                Current capacity is at 62,000 square meters of greenhouses 
+                with output capacity in excess of 2,000 metric tons of fruit 
+                and leafy vegetable per annum. Please see aerial video of farm 
+                here for reference. We look towards a future farm that has about 
+                500,000 square meters of greenhouses, and 720,000 per cycle production 
+                capacity of poultry, and 1 Million Cubic Meters of Biogas, 
+                7,300 tons of rabbit carcass per annum, 17,000 
+                crates of eggs daily. The project requires about 80,000,000 USD, 
+                Eighty Million United States Dollars to reach its peak of productivity on a 
+                period of 6 years growth plan. This creates opportunities for 
+                interested partners, sponsors, angel investors, VC, governments 
+                and high net worth individuals to collaborate 
+                on this mega project with huge profit and growth potential.
+                </p>
+            </div>
+            <iframe  className='video' src="https://www.youtube.com/embed/-LMxoET8_4Y" title="Vedgiland" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+        </section>
         <section className="services">
             <div className="section-title">
                 <h1>
