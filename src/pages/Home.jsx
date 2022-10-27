@@ -44,7 +44,7 @@ const Home = () => {
         <section className="intro become">
             <div className="intro-text">
                 <h2 className="intro-title">
-                    Just a simple title
+                    Join us today
                 </h2>
                 <p className='subtitle'>
                 Current capacity is at 62,000 square meters of greenhouses 
@@ -61,6 +61,9 @@ const Home = () => {
                 and high net worth individuals to collaborate 
                 on this mega project with huge profit and growth potential.
                 </p>
+                <button className="action-btn" onClick={e=>{navigate('/partnership')}}>
+                    Fund us today
+                </button>
             </div>
             <iframe  className='video' src="https://www.youtube.com/embed/-LMxoET8_4Y" title="Vedgiland" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             

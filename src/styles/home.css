@@ -83,6 +83,10 @@ main {
   color: rgb(0, 0, 0);
   /* margin-bottom: 2rem; */
 }
+#home .intro .action-btn{
+  background-color: white;
+  color: #48B760 ;
+}
 #home .intro-text{
   display: flex;
   flex-direction: column;
@@ -555,5 +559,9 @@ main {
   #home .intro-text{
     width: 95%;
     font-size: 15px !important;
+  }
+  #home .purpose .desc{
+    margin: 0;
+    width: 100% !important;
   }
 }
