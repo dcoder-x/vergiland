@@ -44,9 +44,6 @@ const Home = () => {
         <iframe  className='video' src="https://www.youtube.com/embed/-LMxoET8_4Y" title="Vedgiland" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <section className="services">
             <div className="section-title">
-                <div className="icon">
-
-                </div>
                 <h1>
                     Services
                 </h1>

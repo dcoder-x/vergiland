@@ -515,7 +515,7 @@ main {
   }
   #home .section-title h1 {
     font-size: 30px;
-    width: 60%;
+    /* width: 60%; */
   }
   #home .address {
     width: 95%;
