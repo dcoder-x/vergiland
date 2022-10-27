@@ -66,7 +66,7 @@ main {
   line-height: 18px;
   display: flex;
   align-items: center;
-  color: #ffffff;
+  color: #000000;
   margin: 2rem 0;
 }
 #home .intro{
@@ -86,6 +86,7 @@ main {
 #home .intro .action-btn{
   background: linear-gradient(94.77deg, #ffffff 0%, #ffffff 100%);
   color: #48B760 ;
+  width: 70%;
 }
 #home .intro-text{
   display: flex;
