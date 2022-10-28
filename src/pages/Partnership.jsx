@@ -13,7 +13,7 @@ const Partnership = () => {
             btn='Become a Partner'
             title={'Partnership & Affiliation'}
             to={'#partnershipform'}
-            desc={'With a Mission and Vision as compelling as ours we can not achieve it by depending on just our strength, hence the reason why we are in Partnership with this Reputable and Exceptional Companies.'}
+            desc={'With a Mission and Vision as compelling as ours we can not achieve it by depending on just our strength, hence the reason we are in Partnership with Reputable and exceptional Companies. You can also become one of our Funding, Reselling, Supplying, Training and Operation partner by contacting us now…'}
         />
         <section className="partnershipOffers">
 
@@ -51,14 +51,14 @@ const Partnership = () => {
             </div> */}
         </section>
         <section className=" join">
-            <Hero 
+            {/* <Hero 
                 className={'become'}
                 image={images.partnersimg} 
                 btn='Become a Partner'
                 title={'Become a Partner'}
                 to={'#partnershipform'}
                 desc={'You can also Join us in the fight against food Insecurity. Apply now and our Team will reach out to you.'}
-            />
+            /> */}
             <div className="form" id='partnershipform'>
 
                 <form action="">
@@ -84,14 +84,20 @@ const Partnership = () => {
                         </label>
                         <select name="" id="">
                             <optgroup>
-                                <option value="Investor">
-                                    Investor
+                                <option value="Funding">
+                                    Funding
                                 </option>
-                                <option value="Affiliate">
-                                    Affiliate
+                                <option value="Reselling">
+                                    Reselling
                                 </option>
                                 <option value="Tech integration">
-                                    Tech integration
+                                    Supplying
+                                </option>
+                                <option value="Tech integration">
+                                    Training
+                                </option>
+                                <option value="Tech integration">
+                                    Operation
                                 </option>
 
                             </optgroup>

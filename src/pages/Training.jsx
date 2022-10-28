@@ -11,7 +11,7 @@ const Training = () => {
             btn='Take a course'
             title={'Training & Internship'}
             to={'#trainingform'}
-            desc={' '}
+            desc={'Get hands on training and experience on the use of controlled farming system for the production of fruit and leafy vegetable and also Poultry. '}
         />
         {/* <section className="partners">
             <h1>
@@ -52,13 +52,13 @@ const Training = () => {
                 to={'#trainingform'}
                 title={'Become a Trainee'}
             /> */}
-            <Hero 
+            {/* <Hero 
                 className={'become intern'}
                 image={images.intern} 
                 btn='become an intern'
                 to={'#trainingform'}
                 title={'Become an Intern'}
-            />
+            /> */}
             <div className="form" id='trainingform'>
 
                 <form action="">
@@ -89,6 +89,19 @@ const Training = () => {
                                 </option>
                                 <option value="Trainee">
                                     Trainee
+                                </option>
+
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div className="field">
+                        <label htmlFor="">
+                        Location
+                        </label>
+                        <select name="" id="">
+                            <optgroup>
+                                <option value="Ibadan">
+                                    Ibadan
                                 </option>
 
                             </optgroup>

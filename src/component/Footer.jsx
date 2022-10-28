@@ -49,7 +49,7 @@ const Footer = () => {
       </div>
 
       <div>
-        <h4>Up date</h4>
+        <h4>Updates</h4>
         <p><Link to="./contact">Contact</Link></p>
         <p><Link to="./blog">Blog</Link></p>
         {/* <p><a to="./about.html">Download Documents</a></p> */}

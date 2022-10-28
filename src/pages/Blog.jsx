@@ -8,7 +8,7 @@ import coming from '../assets/lottie/coming.json'
 const Blog = () => {
   return (
     <main id="blog">
-      <h1 style={{ fontSize: 50, fontWeight: "900" }}>Blog</h1>
+      <h1 style={{ fontSize: 50, fontWeight: "900" }}>Blog(coming soon)</h1>
       {/* <section className="blog-header">
         <img src={images.insects} alt="" />
 

@@ -6,6 +6,8 @@ import { services } from '../data/services';
 import { values } from '../data/values';
 import { useNavigate } from 'react-router';
 import bgvid from '../assets/videos/vedgiland.mp4'
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Home = () => {
     const navigate = useNavigate()
@@ -44,7 +46,7 @@ const Home = () => {
         <section className="intro become">
             <div className="intro-text">
                 <h2 className="intro-title">
-                    Join us today
+                    Partner with us.
                 </h2>
                 <p className='subtitle'>
                 Current capacity is at 62,000 square meters of greenhouses 
@@ -55,7 +57,7 @@ const Home = () => {
                 capacity of poultry, and 1 Million Cubic Meters of Biogas, 
                 7,300 tons of rabbit carcass per annum, 17,000 
                 crates of eggs daily. The project requires about 80,000,000 USD, 
-                Eighty Million United States Dollars to reach its peak of productivity on a 
+                (Eighty Million United States Dollars) to reach its peak of productivity on a 
                 period of 6 years growth plan. This creates opportunities for 
                 interested partners, sponsors, angel investors, VC, governments 
                 and high net worth individuals to collaborate 
@@ -89,9 +91,12 @@ const Home = () => {
                             <p className="subtext">
                                 {service.subtext}
                             </p>
-                            <button className='action-btn' onClick={e=>{navigate('/services')}}>
-                                Learn more
-                            </button>
+                            <HashLink to={service.link} smooth>
+                                <button className='action-btn'>
+                                    Learn more
+                                </button>
+                            </HashLink>
+
                         </div> 
                         )
                     })
@@ -214,7 +219,8 @@ const Home = () => {
 
             </div>
             <p className="subtitle">
-            With a Mission and Vision as compelling as ours we can not achieve it by depending on just our strength, hence the reason why we are in Partnership with this Reputable and Exceptional Companies.
+            With a Mission and Vision as compelling as ours we can not achieve it by depending on just our strength, 
+            hence the reason we are in Partnership with Reputable and exceptional Companies.
             </p>
             {/* <div className="partners">
                 {
@@ -262,13 +268,13 @@ const Home = () => {
                             <div className='phone'>
                                 <Icon color='#48b760' icon="carbon:phone-filled" width={30} />
                                 <p>
-                                    +2347057094393
+                                    
                                 </p>
                             </div>
                             <div className='phone'>
                                 <Icon color='#48b760' icon="carbon:location-filled" width={30} />
                                 <p>
-                                    2972 Westheimer Rd. Santa Ana, Illinois 85486 
+                                Vedgiland Farms, Fashola Farm Settlement, Fashola Village,Oyo State.
                                 </p>
                             </div>
                         </div>

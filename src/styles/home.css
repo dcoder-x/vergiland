@@ -106,6 +106,7 @@ main {
 .intro-text .subtitle{
   padding: 0 !important;
   color: white !important;
+  text-align: justify;
 }
 /* .home-vid{
   width: 100%;
