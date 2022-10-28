@@ -273,8 +273,8 @@ const Home = () => {
                             </div>
                             <div className='phone'>
                                 <Icon color='#48b760' icon="carbon:location-filled" width={30} />
-                                <p>
-                                Vedgiland Farms, Fashola Farm Settlement, Fashola Village,Oyo State.
+                                <p style={{textAlign:"auto !important"}}>
+                                Vedgiland Farms, Fashola Farm Settlement, Fashola Village, Oyo State.
                                 </p>
                             </div>
                         </div>

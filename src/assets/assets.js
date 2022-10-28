@@ -33,6 +33,7 @@ import insect from "./icons/insect.png";
 import poultryicon from "./icons/poultry.png";
 import greenhouse from "./icons/greenhouse.png";
 import lightning from "./icons/lightning.svg";
+import biogas from "./icons/biogas.png";
 import one from "./icons/one.svg";
 import two from "./icons/two.svg";
 import three from "./icons/three.svg";
@@ -44,6 +45,7 @@ import Facebook from "./icons/Facebook.svg";
 import Instagram from "./icons/Instagram.svg";
 import LinkedIn from "./icons/LinkedIn.svg";
 import Twitter from "./icons/Twitter.svg";
+import Biogas from './bgImages/biogas.jpg'
 
 export const partners = [
   partner3,
@@ -75,7 +77,8 @@ export const images = {
   poultry,
   insects,
   booking,
-  farm2
+  farm2,
+  Biogas
 };
 export const Icons = {
   tractor,
@@ -95,5 +98,6 @@ export const Icons = {
   Twitter,
   insect,
   poultryicon,
-  greenhouse
+  greenhouse,
+  biogas
 };

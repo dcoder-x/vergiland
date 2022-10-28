@@ -3,9 +3,9 @@ import { Icons } from "../assets/assets";
 export const services = [
     {
         name:'Cultivation',
-        icon:Icons.agriculture,
+        icon:Icons.biogas,
         subtext:'This is Vegiland',
-        link:'/services'
+        link:'/services#biogas'
     },
     {
         name:'Poultry',

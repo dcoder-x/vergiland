@@ -106,6 +106,20 @@ const Services = () => {
           Wastes will be converted to biogas and ethanol 
         `}
       />
+      <HomeSection
+        sectionImg={images.Biogas}
+        sectionBg={images.Biogas}
+        id='biogas'
+        sectionTitle={"Biogas System"}
+        sectionText={`
+        The biogas 
+        system utilizes wastes from the farms and converts them into 
+        biogas, other gases and manures. The main advantage of the 
+        biogas system is the renewable energy supply and reduction 
+        of farm waste. This will end up reducing the cost of production 
+        further while improving the profitability margin of the Farm. 
+        `}
+      />
     </main>
   );
 };

@@ -19,8 +19,7 @@
 #services .overview p{
     width: 80%;
     font-size: 20px;
-    
-
+    text-align: justify;
 }
 @media screen and (max-width:800px) {
     #services .overview p{

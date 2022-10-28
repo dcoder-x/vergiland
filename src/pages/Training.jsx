@@ -8,7 +8,7 @@ const Training = () => {
     <main id='training'>
         <Hero 
             image={images.training} 
-            btn='Take a course'
+            btn='Register'
             title={'Training & Internship'}
             to={'#trainingform'}
             desc={'Get hands on training and experience on the use of controlled farming system for the production of fruit and leafy vegetable and also Poultry. '}
