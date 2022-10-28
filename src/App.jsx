@@ -1,6 +1,6 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
-import { Route, Routes } from 'react-router'
+import { Route, Routes, useLocation } from 'react-router'
 import Home from './pages/Home'
 import Nav from './component/Nav'
 import Footer from './component/Footer'
@@ -13,6 +13,11 @@ import Blog from './pages/Blog'
 
 function App() {
   const [count, setCount] = useState(0)
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
     <div className='app'>
