@@ -2,7 +2,7 @@ import { Icons } from "../assets/assets";
 
 export const services = [
     {
-        name:'Cultivation',
+        name:'Biogas',
         icon:Icons.biogas,
         subtext:'This is Vegiland',
         link:'/services#biogas'

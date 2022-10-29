@@ -102,6 +102,7 @@ main {
 #home .intro-title{
   font-size: 40px;
   line-height: 44px;
+  color: white;
 }
 .intro-text .subtitle{
   padding: 0 !important;
