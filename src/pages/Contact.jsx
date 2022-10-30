@@ -52,7 +52,7 @@ const Contact = () => {
                             <div className='phone'>
                                 <Icon color='#48b760' icon="carbon:location-filled" width={30} />
                                 <p>
-                                    2972 Westheimer Rd. Santa Ana, Illinois 85486 
+                                Vedgiland Farms, Fashola Farm Settlement, Fashola Village, Oyo State.
                                 </p>
                             </div>
                         </div>
